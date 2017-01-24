@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A370AF91E37331600C9A329 /* RemoconUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A370AF81E37331600C9A329 /* RemoconUtils.swift */; };
 		5AB66CC51E31B2FD00C3888C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB66CC41E31B2FD00C3888C /* AppDelegate.swift */; };
 		5AB66CC71E31B2FD00C3888C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB66CC61E31B2FD00C3888C /* ViewController.swift */; };
 		5AB66CCA1E31B2FD00C3888C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AB66CC81E31B2FD00C3888C /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A370AF81E37331600C9A329 /* RemoconUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoconUtils.swift; sourceTree = "<group>"; };
 		5AB66CC11E31B2FD00C3888C /* remocon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remocon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB66CC41E31B2FD00C3888C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5AB66CC61E31B2FD00C3888C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				5AB66CD01E31B2FD00C3888C /* LaunchScreen.storyboard */,
 				5AB66CD31E31B2FD00C3888C /* Info.plist */,
 				5AB66CCB1E31B2FD00C3888C /* remocon.xcdatamodeld */,
+				5A370AF81E37331600C9A329 /* RemoconUtils.swift */,
 			);
 			path = remocon;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB66CC71E31B2FD00C3888C /* ViewController.swift in Sources */,
+				5A370AF91E37331600C9A329 /* RemoconUtils.swift in Sources */,
 				5AB66CC51E31B2FD00C3888C /* AppDelegate.swift in Sources */,
 				5AB66CCD1E31B2FD00C3888C /* remocon.xcdatamodeld in Sources */,
 			);
@@ -518,6 +522,7 @@
 				5AB66CEE1E31B2FD00C3888C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB66CEF1E31B2FD00C3888C /* Build configuration list for PBXNativeTarget "remoconTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				5AB66CF11E31B2FD00C3888C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB66CF21E31B2FD00C3888C /* Build configuration list for PBXNativeTarget "remoconUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				5AB66CF41E31B2FD00C3888C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
