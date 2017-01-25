@@ -14,16 +14,14 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        
-        remoconUtils.submit(text: "テレビoff")
+    }
+
+    @IBAction func buttonPush(_ sender: UIButton) {
+        let buttonName = sender.currentTitle! as String
+        remoconUtils.submit(text: buttonName)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-
