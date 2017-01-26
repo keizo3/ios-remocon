@@ -15,7 +15,10 @@ class RemoconUtils {
         
         let postParams:[String: AnyObject] = ["text" : text as AnyObject]
         
-        var request = URLRequest(url: URL(string: "https://hooks.slack.com/services/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")!)
+        let path = Bundle.main.path(forResource: "Token", ofType: "plist")
+        let apiEndpoint = NSDictionary(contentsOfFile: path!)?.object(forKey: "APIEndpoint") as! String
+        
+        var request = URLRequest(url: URL(string: apiEndpoint)!)
         request.httpMethod = "POST"
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         
@@ -30,14 +33,12 @@ class RemoconUtils {
             (data, response, error) in
             
             if error != nil {
-                print(error)
+                print(error as Any)
                 return
             }
             
-            print("response: \(response!)")
-            
             let phpOutput = String(data: data!, encoding: .utf8)!
-            print("php output: \(phpOutput)")
+            print("APIresult: \(phpOutput)")
         })
         task.resume()
     }

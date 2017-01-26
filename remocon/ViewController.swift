@@ -17,8 +17,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPush(_ sender: UIButton) {
-        let buttonName = sender.currentTitle! as String
-        remoconUtils.submit(text: buttonName)
+        remoconUtils.submit(text: sender.currentTitle! as String)
     }
 
     override func didReceiveMemoryWarning() {

@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rc-hM-Wuk">
-                                <rect key="frame" x="20" y="76" width="90" height="30"/>
+                                <rect key="frame" x="21" y="79" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル1"/>
@@ -39,16 +39,18 @@
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="8Xo-su-NnT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-dl-CYE">
-                                <rect key="frame" x="102.5" y="190" width="115" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-dl-CYE">
+                                <rect key="frame" x="103" y="187" width="115" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネルgame"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="51R-aP-39E"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-QW-W5I">
-                                <rect key="frame" x="206" y="79" width="90" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-QW-W5I">
+                                <rect key="frame" x="206" y="79" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル3"/>
                                 <connections>
@@ -56,7 +58,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiL-wZ-Y7O">
-                                <rect key="frame" x="20" y="114" width="90" height="30"/>
+                                <rect key="frame" x="21" y="114" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル4"/>
@@ -64,8 +66,9 @@
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="8bb-3f-akQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIp-MC-avr">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIp-MC-avr">
                                 <rect key="frame" x="208" y="114" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル6"/>
                                 <connections>
@@ -73,7 +76,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZu-ZM-MnH">
-                                <rect key="frame" x="187" y="259" width="100" height="30"/>
+                                <rect key="frame" x="173" y="237" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="エアコンoff"/>
@@ -82,7 +85,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZW6-Vi-SoQ">
-                                <rect key="frame" x="79" y="259" width="100" height="30"/>
+                                <rect key="frame" x="55" y="237" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="エアコンon"/>
@@ -91,21 +94,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbT-fn-kXE">
-                                <rect key="frame" x="21" y="152" width="90" height="30"/>
+                                <rect key="frame" x="21" y="149" width="90" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル7"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="gee-ka-768"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
-                                <rect key="frame" x="137" y="357" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="リブート"/>
-                                <connections>
-                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="CPz-ZY-B0N"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppN-UZ-ypx">
@@ -117,24 +111,27 @@
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="UlU-xP-yq3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxR-dV-u7d">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxR-dV-u7d">
                                 <rect key="frame" x="117" y="79" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル2"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="6IP-HZ-WFM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDS-sx-Bhf">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDS-sx-Bhf">
                                 <rect key="frame" x="117" y="114" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル5"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Aw7-QT-TiU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-FZ-QqW">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-FZ-QqW">
                                 <rect key="frame" x="117" y="149" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="チャンネル8"/>
                                 <connections>
@@ -142,7 +139,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00f-9Q-RL8">
-                                <rect key="frame" x="179" y="38" width="100" height="30"/>
+                                <rect key="frame" x="173" y="38" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="テレビoff"/>
@@ -150,23 +147,17 @@
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="7TS-ZE-HIQ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
+                                <rect key="frame" x="110" y="330" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="リブート"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="CPz-ZY-B0N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="vxg-dl-CYE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-79" id="2Yj-lQ-CKw"/>
-                            <constraint firstItem="3oS-FZ-QqW" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-120" id="4Kb-y1-gno"/>
-                            <constraint firstItem="vDS-sx-Bhf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-155" id="8kX-Xt-YkB"/>
-                            <constraint firstItem="QIp-MC-avr" firstAttribute="leading" secondItem="vDS-sx-Bhf" secondAttribute="trailing" constant="5" id="LdN-HB-s6s"/>
-                            <constraint firstItem="vDS-sx-Bhf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SOD-2o-veE"/>
-                            <constraint firstItem="3oS-FZ-QqW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WCq-Zb-b05"/>
-                            <constraint firstItem="xxR-dV-u7d" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-190" id="Xxt-xK-I8h"/>
-                            <constraint firstItem="QIp-MC-avr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="155" id="bO8-pj-pMx"/>
-                            <constraint firstItem="xxR-dV-u7d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bza-qI-ew3"/>
-                            <constraint firstItem="QIp-MC-avr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-155" id="foX-lA-agt"/>
-                            <constraint firstItem="vxg-dl-CYE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nS8-aR-qyG"/>
-                            <constraint firstItem="QIp-MC-avr" firstAttribute="top" secondItem="pUQ-QW-W5I" secondAttribute="bottom" constant="5" id="zAq-Ik-o8h"/>
-                            <constraint firstItem="pUQ-QW-W5I" firstAttribute="leading" secondItem="xxR-dV-u7d" secondAttribute="trailing" constant="5" id="zDR-bs-a7K"/>
-                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
