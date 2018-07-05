@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -130,7 +130,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
-                                <rect key="frame" x="113" y="401" width="100" height="30"/>
+                                <rect key="frame" x="113" y="453" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="リブート"/>
@@ -142,7 +142,7 @@
                                 <rect key="frame" x="173" y="334" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="エアコンoff"/>
+                                <state key="normal" title="冷房off"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="e0A-Rr-D5p"/>
                                 </connections>
@@ -151,9 +151,27 @@
                                 <rect key="frame" x="55" y="334" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="エアコンon"/>
+                                <state key="normal" title="冷房on"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Hwl-Yv-9u3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS9-CC-fFD">
+                                <rect key="frame" x="55" y="393" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="暖房on"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="L87-DC-3mn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ3-7V-o5q">
+                                <rect key="frame" x="173" y="393" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="暖房off"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Bom-K9-jYl"/>
                                 </connections>
                             </button>
                         </subviews>
