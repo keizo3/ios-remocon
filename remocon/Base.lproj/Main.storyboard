@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_0" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -129,13 +127,13 @@
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="7TS-ZE-HIQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
-                                <rect key="frame" x="113" y="453" width="100" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZ4-HB-MD0">
+                                <rect key="frame" x="55" y="453" width="100" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="リブート"/>
                                 <connections>
-                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="CPz-ZY-B0N"/>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Ia8-EQ-CAR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZu-ZM-MnH">
@@ -172,6 +170,15 @@
                                 <state key="normal" title="暖房off"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Bom-K9-jYl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
+                                <rect key="frame" x="173" y="453" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="リスタート"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="CPz-ZY-B0N"/>
                                 </connections>
                             </button>
                         </subviews>
