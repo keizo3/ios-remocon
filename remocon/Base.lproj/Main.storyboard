@@ -37,13 +37,13 @@
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="8Xo-su-NnT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-dl-CYE">
-                                <rect key="frame" x="106" y="258" width="115" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qX9-5Z-bn5">
+                                <rect key="frame" x="84" y="258" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="チャンネルgame"/>
+                                <state key="normal" title="PC"/>
                                 <connections>
-                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="51R-aP-39E"/>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="WA6-pr-5ar"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-QW-W5I">
@@ -179,6 +179,15 @@
                                 <state key="normal" title="リスタート"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="CPz-ZY-B0N"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-dl-CYE">
+                                <rect key="frame" x="211" y="258" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="video"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="51R-aP-39E"/>
                                 </connections>
                             </button>
                         </subviews>
