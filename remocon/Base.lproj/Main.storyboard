@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -19,179 +19,304 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVL-jr-iZJ">
-                                <rect key="frame" x="55" y="38" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVL-jr-iZJ">
+                                <rect key="frame" x="16" y="339" width="100" height="40"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="DQk-Mg-c7c"/>
+                                    <constraint firstAttribute="width" constant="100" id="eWa-5R-Tpb"/>
+                                </constraints>
                                 <state key="normal" title="テレビon"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="ep9-cD-TTt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rc-hM-Wuk">
-                                <rect key="frame" x="24" y="85" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxU-l0-ECq">
+                                <rect key="frame" x="16" y="180" width="80" height="40"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="K7U-hr-RZG"/>
+                                    <constraint firstAttribute="width" constant="80" id="eTT-rP-Vom"/>
+                                </constraints>
+                                <state key="normal" title="ライトon"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="O4U-1H-ZiG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZnO-dk-hZ7">
+                                <rect key="frame" x="110" y="360" width="100" height="40"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Grg-Az-pH2"/>
+                                    <constraint firstAttribute="height" constant="40" id="lqs-Xk-87n"/>
+                                </constraints>
+                                <state key="normal" title="ただいま"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Jv7-zo-3Fk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rc-hM-Wuk">
+                                <rect key="frame" x="16" y="48" width="90" height="30"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="I9g-u0-EjO"/>
+                                    <constraint firstAttribute="width" constant="90" id="dJN-xb-f6M"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル1"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="8Xo-su-NnT"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qX9-5Z-bn5">
-                                <rect key="frame" x="84" y="258" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qX9-5Z-bn5">
+                                <rect key="frame" x="110" y="240" width="100" height="40"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NV5-qJ-2Ep"/>
+                                    <constraint firstAttribute="width" constant="100" id="bRD-dZ-Jle"/>
+                                </constraints>
                                 <state key="normal" title="PC"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="WA6-pr-5ar"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-QW-W5I">
-                                <rect key="frame" x="209" y="85" width="88" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUQ-QW-W5I">
+                                <rect key="frame" x="214" y="47" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="HGo-dP-W9r"/>
+                                    <constraint firstAttribute="height" constant="30" id="Vpk-ab-8t4"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル3"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="4g7-Wv-51z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiL-wZ-Y7O">
-                                <rect key="frame" x="24" y="141" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JiL-wZ-Y7O">
+                                <rect key="frame" x="15" y="86" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="7vc-df-L8e"/>
+                                    <constraint firstAttribute="height" constant="30" id="gnN-r1-iFL"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル4"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="8bb-3f-akQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIp-MC-avr">
-                                <rect key="frame" x="211" y="141" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIp-MC-avr">
+                                <rect key="frame" x="214" y="90" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="EjA-LZ-IM3"/>
+                                    <constraint firstAttribute="width" constant="90" id="mod-pk-j8T"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル6"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="383-Za-RLz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbT-fn-kXE">
-                                <rect key="frame" x="24" y="197" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nbT-fn-kXE">
+                                <rect key="frame" x="16" y="130" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="eEZ-05-23d"/>
+                                    <constraint firstAttribute="height" constant="30" id="yFB-uu-Guh"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル7"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="gee-ka-768"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppN-UZ-ypx">
-                                <rect key="frame" x="211" y="197" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ppN-UZ-ypx">
+                                <rect key="frame" x="214" y="130" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="dSd-0t-z6d"/>
+                                    <constraint firstAttribute="height" constant="30" id="wAL-uM-Yaa"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル9"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="UlU-xP-yq3"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxR-dV-u7d">
-                                <rect key="frame" x="120" y="85" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxR-dV-u7d">
+                                <rect key="frame" x="114" y="47" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Tb-ap-c9X"/>
+                                    <constraint firstAttribute="width" constant="90" id="uka-oO-6tg"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル2"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="6IP-HZ-WFM"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDS-sx-Bhf">
-                                <rect key="frame" x="120" y="141" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDS-sx-Bhf">
+                                <rect key="frame" x="114" y="85" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="TaE-8D-k2x"/>
+                                    <constraint firstAttribute="width" constant="90" id="Zea-Fr-kpa"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル5"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Aw7-QT-TiU"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-FZ-QqW">
-                                <rect key="frame" x="120" y="197" width="86" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-FZ-QqW">
+                                <rect key="frame" x="113" y="121" width="90" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="YCr-i5-65v"/>
+                                    <constraint firstAttribute="height" constant="30" id="vCK-Uw-VHl"/>
+                                </constraints>
                                 <state key="normal" title="チャンネル8"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Q9K-eO-eyn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00f-9Q-RL8">
-                                <rect key="frame" x="173" y="38" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00f-9Q-RL8">
+                                <rect key="frame" x="204" y="300" width="100" height="40"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="1QD-7e-Dxk"/>
+                                    <constraint firstAttribute="height" constant="40" id="dL6-81-gFr"/>
+                                </constraints>
                                 <state key="normal" title="テレビoff"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="7TS-ZE-HIQ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZ4-HB-MD0">
-                                <rect key="frame" x="55" y="453" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M5C-Yf-HDP">
+                                <rect key="frame" x="120" y="180" width="80" height="40"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="リブート"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="7Gr-tU-cCW"/>
+                                    <constraint firstAttribute="height" constant="40" id="aFZ-pt-wnb"/>
+                                </constraints>
+                                <state key="normal" title="ライトoff"/>
                                 <connections>
-                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Ia8-EQ-CAR"/>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="sxj-G0-Wej"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZu-ZM-MnH">
-                                <rect key="frame" x="173" y="334" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZu-ZM-MnH">
+                                <rect key="frame" x="234" y="10" width="60" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="xsH-dH-Cpk"/>
+                                    <constraint firstAttribute="height" constant="30" id="ye2-Cm-7xN"/>
+                                </constraints>
                                 <state key="normal" title="冷房off"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="e0A-Rr-D5p"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZW6-Vi-SoQ">
-                                <rect key="frame" x="55" y="334" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS9-CC-fFD">
+                                <rect key="frame" x="26" y="10" width="60" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="冷房on"/>
-                                <connections>
-                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Hwl-Yv-9u3"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gS9-CC-fFD">
-                                <rect key="frame" x="55" y="393" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="J02-OP-3iv"/>
+                                    <constraint firstAttribute="height" constant="30" id="cpf-bc-rRA"/>
+                                </constraints>
                                 <state key="normal" title="暖房on"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="L87-DC-3mn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZ3-7V-o5q">
-                                <rect key="frame" x="173" y="393" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
+                                <rect key="frame" x="224" y="230" width="80" height="30"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="暖房off"/>
-                                <connections>
-                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Bom-K9-jYl"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1UR-r9-RN9">
-                                <rect key="frame" x="173" y="453" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="mDw-bl-g98"/>
+                                    <constraint firstAttribute="height" constant="30" id="ttL-pi-Q8S"/>
+                                </constraints>
                                 <state key="normal" title="リスタート"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="CPz-ZY-B0N"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-dl-CYE">
-                                <rect key="frame" x="211" y="258" width="38" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxg-dl-CYE">
+                                <rect key="frame" x="120" y="300" width="80" height="40"/>
                                 <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="FpM-sv-abi"/>
+                                    <constraint firstAttribute="height" constant="40" id="vkf-SA-Lf2"/>
+                                </constraints>
                                 <state key="normal" title="video"/>
                                 <connections>
                                     <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="51R-aP-39E"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZW6-Vi-SoQ">
+                                <rect key="frame" x="130" y="10" width="60" height="30"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5Fs-OY-awR"/>
+                                    <constraint firstAttribute="width" constant="60" id="6xx-eR-2Hs"/>
+                                </constraints>
+                                <state key="normal" title="冷房on"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Hwl-Yv-9u3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SZ4-HB-MD0">
+                                <rect key="frame" x="224" y="180" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.1192869701" green="1" blue="0.06026826951" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="PBr-hp-M8A"/>
+                                    <constraint firstAttribute="height" constant="30" id="pBh-P9-YJR"/>
+                                </constraints>
+                                <state key="normal" title="リブート"/>
+                                <connections>
+                                    <action selector="buttonPush:" destination="BYZ-38-t0r" eventType="touchDown" id="Ia8-EQ-CAR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ppN-UZ-ypx" firstAttribute="top" secondItem="JiL-wZ-Y7O" secondAttribute="bottom" constant="10" id="1N8-LA-fEM"/>
+                            <constraint firstItem="XZu-ZM-MnH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="2QJ-pO-DxM"/>
+                            <constraint firstItem="3oS-FZ-QqW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4DJ-yz-iX1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="SZ4-HB-MD0" secondAttribute="trailing" id="4fI-u8-sTa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QIp-MC-avr" secondAttribute="trailing" id="7jG-pv-pd5"/>
+                            <constraint firstItem="ZnO-dk-hZ7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AFY-4X-Ig9"/>
+                            <constraint firstItem="gS9-CC-fFD" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="AQs-lG-qRT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="00f-9Q-RL8" secondAttribute="trailing" id="CqW-cI-6et"/>
+                            <constraint firstItem="ZW6-Vi-SoQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Dem-tI-n2T"/>
+                            <constraint firstItem="M5C-Yf-HDP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EdW-Xy-U57"/>
+                            <constraint firstItem="xxR-dV-u7d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FS8-HV-7rg"/>
+                            <constraint firstItem="vxU-l0-ECq" firstAttribute="top" secondItem="nbT-fn-kXE" secondAttribute="bottom" constant="20" id="Fzj-OQ-6W2"/>
+                            <constraint firstItem="JiL-wZ-Y7O" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="MRA-lD-qW4"/>
+                            <constraint firstItem="3rc-hM-Wuk" firstAttribute="top" secondItem="gS9-CC-fFD" secondAttribute="bottom" constant="10" id="N5L-Pg-huO"/>
+                            <constraint firstItem="qX9-5Z-bn5" firstAttribute="top" secondItem="vxU-l0-ECq" secondAttribute="bottom" constant="20" id="P2I-9i-ezY"/>
+                            <constraint firstItem="ZnO-dk-hZ7" firstAttribute="top" secondItem="00f-9Q-RL8" secondAttribute="bottom" constant="20" id="ReZ-Md-oNY"/>
+                            <constraint firstItem="qX9-5Z-bn5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Reo-u5-m0d"/>
+                            <constraint firstItem="00f-9Q-RL8" firstAttribute="top" secondItem="qX9-5Z-bn5" secondAttribute="bottom" constant="20" id="Rf4-7r-vKJ"/>
+                            <constraint firstItem="1UR-r9-RN9" firstAttribute="top" secondItem="SZ4-HB-MD0" secondAttribute="bottom" constant="20" id="Rub-rr-wMt"/>
+                            <constraint firstItem="3rc-hM-Wuk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Rwg-4Z-suS"/>
+                            <constraint firstItem="AVL-jr-iZJ" firstAttribute="top" secondItem="qX9-5Z-bn5" secondAttribute="bottom" constant="20" id="TTa-SJ-nsW"/>
+                            <constraint firstItem="ZW6-Vi-SoQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="WJk-PS-35g"/>
+                            <constraint firstItem="gS9-CC-fFD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="Xck-hO-egH"/>
+                            <constraint firstItem="JiL-wZ-Y7O" firstAttribute="top" secondItem="3rc-hM-Wuk" secondAttribute="bottom" constant="10" id="Yj3-QC-bQu"/>
+                            <constraint firstItem="xxR-dV-u7d" firstAttribute="top" secondItem="gS9-CC-fFD" secondAttribute="bottom" constant="10" id="YpO-cq-f6t"/>
+                            <constraint firstItem="3oS-FZ-QqW" firstAttribute="top" secondItem="JiL-wZ-Y7O" secondAttribute="bottom" constant="10" id="aKc-0q-ReP"/>
+                            <constraint firstItem="vDS-sx-Bhf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bRg-Nt-vmV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XZu-ZM-MnH" secondAttribute="trailing" constant="10" id="cGm-XD-hNc"/>
+                            <constraint firstItem="AVL-jr-iZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dp5-g0-eAH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ppN-UZ-ypx" secondAttribute="trailing" id="ePZ-en-ejY"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1UR-r9-RN9" secondAttribute="trailing" id="fBj-AM-aoo"/>
+                            <constraint firstItem="QIp-MC-avr" firstAttribute="top" secondItem="3rc-hM-Wuk" secondAttribute="bottom" constant="10" id="fnl-RN-5Xo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pUQ-QW-W5I" secondAttribute="trailing" id="gXJ-rA-7oX"/>
+                            <constraint firstItem="pUQ-QW-W5I" firstAttribute="top" secondItem="gS9-CC-fFD" secondAttribute="bottom" constant="10" id="jZQ-8k-iAb"/>
+                            <constraint firstItem="vxU-l0-ECq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jfz-Pf-Pou"/>
+                            <constraint firstItem="nbT-fn-kXE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="ldS-1M-BPC"/>
+                            <constraint firstItem="vDS-sx-Bhf" firstAttribute="top" secondItem="3rc-hM-Wuk" secondAttribute="bottom" constant="10" id="lyc-V7-ZDk"/>
+                            <constraint firstItem="vxg-dl-CYE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nGn-KC-hcA"/>
+                            <constraint firstItem="vxg-dl-CYE" firstAttribute="top" secondItem="qX9-5Z-bn5" secondAttribute="bottom" constant="20" id="urK-hX-QVY"/>
+                            <constraint firstItem="nbT-fn-kXE" firstAttribute="top" secondItem="JiL-wZ-Y7O" secondAttribute="bottom" constant="10" id="wFs-Sg-9vK"/>
+                            <constraint firstItem="M5C-Yf-HDP" firstAttribute="top" secondItem="ppN-UZ-ypx" secondAttribute="bottom" constant="20" id="yfI-ia-rCw"/>
+                            <constraint firstItem="SZ4-HB-MD0" firstAttribute="top" secondItem="ppN-UZ-ypx" secondAttribute="bottom" constant="20" id="z0i-gb-Ss4"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
